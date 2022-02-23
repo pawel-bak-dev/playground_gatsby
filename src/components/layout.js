@@ -20,15 +20,6 @@ const Layout = ({ pageTitle, children }) => {
     }
   `);
 
-  // const allFiles = useStaticQuery(graphql`
-  // query MyQuery {
-  //   allFile {
-  //     nodes {
-  //       name
-  //     }
-  //   }
-  // }`);
-
   return (
     <div className={container}>
       <title>{pageTitle} | {data.site.siteMetadata.title}</title>
